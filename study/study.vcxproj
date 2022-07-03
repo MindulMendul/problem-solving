@@ -130,10 +130,18 @@
     <ClCompile Include="BetweenAdder.cpp" />
     <ClCompile Include="DefaultValue1.cpp" />
     <ClCompile Include="DefaultValue2.cpp" />
+    <ClCompile Include="DefaultValue3.cpp" />
     <ClCompile Include="FunctionOverloading.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="InlineFunc.cpp" />
+    <ClCompile Include="NameSp1.cpp" />
+    <ClCompile Include="NameSp2.cpp" />
+    <ClCompile Include="NameSp3.cpp" />
     <ClCompile Include="SimpleAdder.cpp" />
     <ClCompile Include="StringIO.cpp" />
+    <ClCompile Include="UsingDcl1.cpp" />
+    <ClCompile Include="UsingDcl2.cpp" />
+    <ClCompile Include="UsingDcl3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
