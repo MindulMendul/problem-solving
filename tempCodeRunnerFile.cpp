@@ -47,6 +47,7 @@ static int run() {
 }
 
 int main(void) {
+    
 	setbuf(stdout, NULL);
 	freopen("partial_sort_input.txt", "r", stdin);
 	int T;
@@ -57,6 +58,8 @@ int main(void) {
 	}
 	return 0;
 }
+
+
 
 /////////
 
