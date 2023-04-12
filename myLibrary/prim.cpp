@@ -54,8 +54,7 @@ int main(int argc, char** argv)
         pq=priority_queue<Edge, vector<Edge>, cmp>();
         
         //calculate
-        int cnt=0, nextI=0; i=0;
-        double tmpLen;
+        int cnt=0; i=0;
         Edge edge;
         visited[0]=true;
         while(cnt<N-1){
