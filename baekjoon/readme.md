@@ -14,5 +14,6 @@
 #10090. (p5) Inversion Counting
 #11003. (P5) Deque
 #11726. (s3) DP
+#11727. (s3) DP
 #16496. (p5) String sort, Greedy
 #18185. (d5) Greedy
