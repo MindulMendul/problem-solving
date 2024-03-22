@@ -1,3 +1,5 @@
+static int parent[100];
+
 //시간 복잡도가 상수시간
 int Find(int x){
     if(x==parent[x]) return x;
