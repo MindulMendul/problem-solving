@@ -1,7 +1,37 @@
 #include <iostream>
-#include <string>
+#include <queue>
 
 using namespace std;
+
+#define INF 99999999
+
+static bool friends[101][101];
+int N, M;
+
+int bfs(int s){
+	queue<pair<int,int>> q;
+	q.push(make_pair(s, 1));
+	bool arr[N+1];
+	for(int i=1; i<=N; i++) arr[i]=false;
+	arr[s]=true;
+	int cnt=1, sum=0;
+	while(!q.empty()){
+		pair<int, int> t=q.front(); q.pop();
+		for(int i=1; i<=N; i++){
+			if(friends[t.first][i]){
+				if(!arr[i]){
+					q.push(make_pair(i, t.second+1));
+					arr[i]=true;
+					sum+=t.second;
+					cnt++;
+				}
+			}
+		}
+		if(cnt==N){break;}
+	}
+
+	return sum;
+}
 
 int main(){
     freopen("input.txt", "rt", stdin);
@@ -9,50 +39,27 @@ int main(){
     cin.tie(NULL);
     cout.tie(NULL);
 
-	bool Set[20]={false, false, false, false, false,  false, false, false, false, false,  false, false, false, false, false,  false, false, false, false, false};
-	for(i=0; i<N; i++){
-		cin>>arr[i];
-	}
-
-	cin>>M;
-
-	for(i=0; i<M; i++){
-		string cmd; int j;
-		cin >> cmd;
-		switch(cmd){
-			case "add":
-				cin>>j;
-				Set[j-1]=true;
-				break;
-
-			case "remove":
-				cin>>j;
-				Set[j-1]=false;
-				break;
-
-			case "check":
-				cin>>j;
-				j=(Set[j-1])?1:0;
-				cout<<j<<endl;
-				break;
-
-			case "toggle":
-				cin>>j;
-				Set[j-1]=!Set[j-1];
-				break;
-
-			case "all": 
-				for(j=0 j<20; j++){
-					Set[j]=true;
-				}
-				break;
-			case "empty": 
-				for(j=0 j<20; j++){
-					Set[j]=true;
-				}
-				break;
+	// init
+	cin>>N>>M;
+	for(int i=1; i<=N; i++){
+		for(int j=1; j<=N; j++){
+			friends[i][j]=false;
 		}
 	}
-		
-    return 0;
+
+	for(int i=0; i<M; i++){
+		int x, y;
+		cin>>x>>y;
+		friends[x][y]=true;
+		friends[y][x]=true;
+	}
+
+	// calculate
+	int ind=INF, cnt=INF;
+	for(int i=1; i<=N; i++){
+		int tmp_cnt=bfs(i);
+		if(cnt>tmp_cnt) {cnt=tmp_cnt; ind=i;}
+	}
+
+	cout<<ind;
 }

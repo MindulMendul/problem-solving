@@ -1,9 +1,11 @@
 # 사용한 알고리즘 분석
 
+#1389. (s1) BFS
 #1463. (s3) DP
 #1517. (p5) Inversion Counting
 #1786. (p5) KMP
-#2166. (g5) geometry
+#1927. (s2) Priority Queue
+#2166. (g5) Geometry
 #4344. (b1) Simple Implementation
 #4673. (s5) Simple Implementation
 #5615. (p1) Finding Prime Number with Miller Rabin
@@ -13,7 +15,9 @@
 #9663. (g4) Back Tracking
 #10090. (p5) Inversion Counting
 #11003. (P5) Deque
+#11279. (s2) Priority Queue
+#11724. (s2) Union Find
 #11726. (s3) DP
 #11727. (s3) DP
-#16496. (p5) String sort, Greedy
+#16496. (p5) String Sort, Greedy
 #18185. (d5) Greedy
