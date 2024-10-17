@@ -22,3 +22,4 @@
 #11727. (s3) DP
 #16496. (p5) String Sort, Greedy
 #18185. (d5) Greedy
+#30804. (s2) Two Pointer
