@@ -9,6 +9,7 @@
 #2166. (g5) Geometry
 #4344. (b1) Simple Implementation
 #4673. (s5) Simple Implementation
+#5430. (g5) Simple Implementation
 #5615. (p1) Finding Prime Number with Miller Rabin
 #8958. (b2) Simple Implementation
 #9093. (b1) Stack
