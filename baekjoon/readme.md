@@ -26,4 +26,6 @@
 #16496. (p5) String Sort, Greedy
 #17626. (s3) Exhaustive Search
 #18185. (d5) Greedy
+#30804. (s2) Two Pointer
+
 #21736. (s3) BFS
