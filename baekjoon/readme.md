@@ -23,6 +23,7 @@
 #10026. (g5) Simple Implementation (with BFS)
 #10090. (p5) Inversion Counting
 #11003. (P5) Deque
+#11053. (s2) DP
 #11279. (s2) Priority Queue
 #11444. (g2) Divide & Conquer wi Fibonacci
 #11724. (s2) Union Find
@@ -33,6 +34,6 @@
 #16953. (s2) BFS
 #17626. (s3) Exhaustive Search
 #18185. (d5) Greedy
-#30804. (s2) Two Pointer
-
+#18870. (s2) Set
 #21736. (s3) BFS
+#30804. (s2) Two Pointer
