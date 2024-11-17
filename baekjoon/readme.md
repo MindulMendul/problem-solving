@@ -4,6 +4,7 @@
 #1389. (s1) BFS
 #1463. (s3) DP
 #1517. (p5) Inversion Counting
+#1764. (s4) Simple Implementation
 #1786. (p5) KMP
 #1927. (s2) Priority Queue
 #2166. (g5) Geometry
@@ -13,13 +14,17 @@
 #8958. (b2) Simple Implementation
 #9093. (b1) Stack
 #9251. (g5) LCS (Longest Common Subsequence)
+#9461. (s3) Dynamic Programming
 #9663. (g4) Back Tracking
 #10090. (p5) Inversion Counting
 #11003. (P5) Deque
+#11047. (s4) Greedy
 #11279. (s2) Priority Queue
+#11399. (s4) Sort
 #11724. (s2) Union Find
 #11726. (s3) DP
 #11727. (s3) DP
 #16496. (p5) String Sort, Greedy
+#17219. (s4) Unordered Map
 #18185. (d5) Greedy
 #30804. (s2) Two Pointer
