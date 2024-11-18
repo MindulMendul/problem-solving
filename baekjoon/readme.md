@@ -9,6 +9,7 @@
 #1629. (s1) Recursive
 #1764. (s4) Simple Implementation
 #1786. (p5) KMP
+#1916. (g4) Dijkstra
 #1927. (s2) Priority Queue
 #1991. (s1) Graph Search
 #2166. (g5) Geometry
