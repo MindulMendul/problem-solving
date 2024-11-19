@@ -7,6 +7,7 @@
 #1463. (s3) DP
 #1517. (p5) Inversion Counting
 #1629. (s1) Recursive
+#1753. (g4) Dijkstra
 #1764. (s4) Simple Implementation
 #1786. (p5) KMP
 #1916. (g4) Dijkstra
@@ -14,6 +15,7 @@
 #1991. (s1) Graph Search
 #2166. (g5) Geometry
 #2579. (s3) DP
+#2606. (s3) DFS with Adjacency List
 #4344. (b1) Simple Implementation
 #4673. (s5) Simple Implementation
 #5430. (g5) Simple Implementation
@@ -25,12 +27,13 @@
 #9663. (g4) Back Tracking
 #10026. (g5) Simple Implementation (with BFS)
 #10090. (p5) Inversion Counting
+#10830. (g4) Divide & Conquer
 #11003. (P5) Deque
 #11047. (s4) Greedy
 #11053. (s2) DP
 #11279. (s2) Priority Queue
 #11399. (s4) Sort
-#11444. (g2) Divide & Conquer wi Fibonacci
+#11444. (g2) Divide & Conquer with Fibonacci
 #11724. (s2) Union Find
 #11725. (s2) DFS
 #11726. (s3) DP
