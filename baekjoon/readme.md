@@ -12,6 +12,7 @@
 #1786. (p5) KMP
 #1916. (g4) Dijkstra
 #1927. (s2) Priority Queue
+#1931. (s1) Greedy
 #1991. (s1) Graph Search
 #2166. (g5) Geometry
 #2579. (s3) DP
@@ -25,6 +26,7 @@
 #9251. (g5) LCS (Longest Common Subsequence)
 #9461. (s3) Dynamic Programming
 #9663. (g4) Back Tracking
+#9935. (g4) String & Stack // Regex replace is too slow..
 #10026. (g5) Simple Implementation (with BFS)
 #10090. (p5) Inversion Counting
 #10830. (g4) Divide & Conquer
@@ -38,6 +40,7 @@
 #11725. (s2) DFS
 #11726. (s3) DP
 #11727. (s3) DP
+#13172. (g4) Divide & Conquer
 #16496. (p5) String Sort, Greedy
 #17219. (s4) Unordered Map
 #16953. (s2) BFS
