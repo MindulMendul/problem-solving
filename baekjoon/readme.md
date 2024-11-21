@@ -3,6 +3,7 @@
 #1003. (s3) DP
 #1149. (s1) DP
 #1197. (g4) MST (Minimum Spanning Tree)
+#1238. (g3) Dijkstra of Two Way
 #1389. (s1) BFS
 #1463. (s3) DP
 #1517. (p5) Inversion Counting
@@ -35,6 +36,7 @@
 #11053. (s2) DP
 #11279. (s2) Priority Queue
 #11399. (s4) Sort
+#11404. (g4) Floyd Warshall
 #11444. (g2) Divide & Conquer with Fibonacci
 #11724. (s2) Union Find
 #11725. (s2) DFS
