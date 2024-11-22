@@ -18,6 +18,7 @@
 #2166. (g5) Geometry
 #2579. (s3) DP
 #2606. (s3) DFS with Adjacency List
+#2887. (p5) Kruskal
 #4344. (b1) Simple Implementation
 #4673. (s5) Simple Implementation
 #5430. (g5) Simple Implementation
@@ -37,6 +38,7 @@
 #11279. (s2) Priority Queue
 #11399. (s4) Sort
 #11404. (g4) Floyd Warshall
+#11438. (p5) LCA (Lowest Common Ancestor)
 #11444. (g2) Divide & Conquer with Fibonacci
 #11724. (s2) Union Find
 #11725. (s2) DFS
