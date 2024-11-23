@@ -1,6 +1,7 @@
 # 사용한 알고리즘 분석
 
 #1003. (s3) DP
+#1043. (g4) Union Find
 #1149. (s1) DP
 #1197. (g4) MST (Minimum Spanning Tree)
 #1238. (g3) Dijkstra of Two Way
@@ -44,7 +45,10 @@
 #11725. (s2) DFS
 #11726. (s3) DP
 #11727. (s3) DP
+#12865. (g5) 0-1 Knapsack (DP)
 #13172. (g4) Divide & Conquer
+#15650. (s3) Exhaustive Search
+#15654. (s3) Exhaustive Search
 #16496. (p5) String Sort, Greedy
 #17219. (s4) Unordered Map
 #16953. (s2) BFS
