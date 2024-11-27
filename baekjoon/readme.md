@@ -16,6 +16,7 @@
 #1927. (s2) Priority Queue
 #1931. (s1) Greedy
 #1991. (s1) Graph Search
+#2075. (s3) Simple Implementation
 #2166. (g5) Geometry
 #2579. (s3) DP
 #2606. (s3) DFS with Adjacency List
