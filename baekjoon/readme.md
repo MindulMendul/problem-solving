@@ -28,7 +28,8 @@
 #8958. (b2) Simple Implementation
 #9093. (b1) Stack
 #9251. (g5) LCS (Longest Common Subsequence)
-#9461. (s3) Dynamic Programming
+#9461. (s3) DP
+#9465. (s1) DP
 #9663. (g4) Back Tracking
 #9935. (g4) String & Stack // Regex replace is too slow..
 #10026. (g5) Simple Implementation (with BFS)
@@ -48,6 +49,7 @@
 #11727. (s3) DP
 #12865. (g5) 0-1 Knapsack (DP)
 #13172. (g4) Divide & Conquer
+#13549. (g5) BFS
 #15650. (s3) Exhaustive Search
 #15654. (s3) Exhaustive Search
 #16496. (p5) String Sort, Greedy
