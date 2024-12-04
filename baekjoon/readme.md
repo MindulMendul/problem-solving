@@ -3,6 +3,7 @@
 #1003. (s3) DP
 #1043. (g4) Union Find
 #1149. (s1) DP
+#1167. (g2) DFS
 #1197. (g4) MST (Minimum Spanning Tree)
 #1238. (g3) Dijkstra of Two Way
 #1389. (s1) BFS
@@ -15,6 +16,7 @@
 #1916. (g4) Dijkstra
 #1927. (s2) Priority Queue
 #1931. (s1) Greedy
+#1967. (g4) DFS
 #1991. (s1) Graph Search
 #2075. (s3) Simple Implementation
 #2166. (g5) Geometry
@@ -43,6 +45,7 @@
 #11404. (g4) Floyd Warshall
 #11438. (p5) LCA (Lowest Common Ancestor)
 #11444. (g2) Divide & Conquer with Fibonacci
+#11660. (s1) DP
 #11724. (s2) Union Find
 #11725. (s2) DFS
 #11726. (s3) DP
