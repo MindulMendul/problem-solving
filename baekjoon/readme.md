@@ -14,6 +14,7 @@
 #1764. (s4) Simple Implementation
 #1786. (p5) KMP
 #1916. (g4) Dijkstra
+#1918. (g2) Stack
 #1927. (s2) Priority Queue
 #1931. (s1) Greedy
 #1967. (g4) DFS
@@ -55,6 +56,7 @@
 #13549. (g5) BFS
 #15650. (s3) Exhaustive Search
 #15654. (s3) Exhaustive Search
+#15663. (s2) Exhaustive Search with Hash Map
 #16496. (p5) String Sort, Greedy
 #17219. (s4) Unordered Map
 #16953. (s2) BFS
