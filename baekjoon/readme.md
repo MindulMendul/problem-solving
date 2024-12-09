@@ -13,6 +13,7 @@
 #1753. (g4) Dijkstra
 #1764. (s4) Simple Implementation
 #1786. (p5) KMP
+#1806. (g4) Two Pointer
 #1916. (g4) Dijkstra
 #1927. (s2) Priority Queue
 #1931. (s1) Greedy
@@ -60,6 +61,7 @@
 #16953. (s2) BFS
 #17626. (s3) Exhaustive Search
 #18185. (d5) Greedy
+#18186. (d4) Greedy
 #18870. (s2) Set
 #21736. (s3) BFS
 #30804. (s2) Two Pointer
