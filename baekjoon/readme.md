@@ -59,6 +59,7 @@
 #15650. (s3) Exhaustive Search
 #15654. (s3) Exhaustive Search
 #15663. (s2) Exhaustive Search with Hash Map
+#15989. (g5) DP
 #16496. (p5) String Sort, Greedy
 #17219. (s4) Unordered Map
 #16953. (s2) BFS
