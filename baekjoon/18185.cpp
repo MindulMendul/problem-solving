@@ -8,39 +8,39 @@ int main(){
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int N, i, m;
+    int N, cur, m;
     int answer=0;
     cin>>N;
-    int A[N];
-    for(i=0; i<N; i++){
-        cin>>A[i];
+    int ramen[N];
+    for(int i=0; i<N; i++){
+        cin>>ramen[i];
     }
-    i=0;
+    cur=0;
 
-    while(i<N){
-        if(A[i]==0){i++;}
+    while(cur<N){
+        if(ramen[cur]==0){cur++;}
         else{
-            if(i<N-2 && A[i+1]>0 && A[i+2]>0){
-                if(A[i+1]<=A[i+2]){
-                    m=min({A[i], A[i+1], A[i+2]});
-                    A[i]-=m;
-                    A[i+1]-=m;
-                    A[i+2]-=m;
+            if(cur<N-2 && ramen[cur+1]>0 && ramen[cur+2]>0){
+                if(ramen[cur+1]<=ramen[cur+2]){
+                    m=min({ramen[cur], ramen[cur+1], ramen[cur+2]});
+                    ramen[cur]-=m;
+                    ramen[cur+1]-=m;
+                    ramen[cur+2]-=m;
                     answer+=7*m;
                 } else {
-                    m=min(A[i], A[i+1]-A[i+2]);
-                    A[i]-=m;
-                    A[i+1]-=m;
+                    m=min(ramen[cur], ramen[cur+1]-ramen[cur+2]);
+                    ramen[cur]-=m;
+                    ramen[cur+1]-=m;
                     answer+=5*m;
                 }
-            } else if(i<N-1 && A[i+1]>0){
-                m=min(A[i], A[i+1]);
-                A[i]-=m;
-                A[i+1]-=m;
+            } else if(cur<N-1 && ramen[cur+1]>0){
+                m=min(ramen[cur], ramen[cur+1]);
+                ramen[cur]-=m;
+                ramen[cur+1]-=m;
                 answer+=5*m;
             } else {
-                answer+=3*A[i];
-                A[i]=0;
+                answer+=3*ramen[cur];
+                ramen[cur]=0;
             }
         }
     }
