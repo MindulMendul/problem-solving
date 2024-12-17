@@ -1,6 +1,7 @@
 # 사용한 알고리즘 분석
 
 #1003. (s3) DP
+#1038. (g5) Exhaustive Search
 #1043. (g4) Union Find
 #1149. (s1) DP
 #1167. (g2) DFS
@@ -21,6 +22,7 @@
 #1991. (s1) Graph Search
 #2075. (s3) Simple Implementation
 #2166. (g5) Geometry
+#2467. (g5) Two Pointer
 #2579. (s3) DP
 #2606. (s3) DFS with Adjacency List
 #2887. (p5) Kruskal
@@ -47,6 +49,7 @@
 #11438. (p5) LCA (Lowest Common Ancestor)
 #11444. (g2) Divide & Conquer with Fibonacci
 #11660. (s1) DP
+#11689. (g1) Inclusion-Exclusion Principle
 #11724. (s2) Union Find
 #11725. (s2) DFS
 #11726. (s3) DP
