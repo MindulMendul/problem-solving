@@ -1,6 +1,7 @@
 # 사용한 알고리즘 분석
 
 #1003. (s3) DP
+#1038. (g5) Exhaustive Search
 #1043. (g4) Union Find
 #1149. (s1) DP
 #1167. (g2) DFS
@@ -24,6 +25,7 @@
 #2075. (s3) Simple Implementation
 #2143. (g3) Map & Two Pointer
 #2166. (g5) Geometry
+#2467. (g5) Two Pointer
 #2579. (s3) DP
 #2606. (s3) DFS with Adjacency List
 #2887. (p5) Kruskal
@@ -31,6 +33,7 @@
 #4673. (s5) Simple Implementation
 #5430. (g5) Simple Implementation
 #5615. (p1) Finding Prime Number with Miller Rabin
+#7453. (g2) Two Pointer
 #8958. (b2) Simple Implementation
 #9019. (g4) BFS
 #9093. (b1) Stack
@@ -51,6 +54,7 @@
 #11438. (p5) LCA (Lowest Common Ancestor)
 #11444. (g2) Divide & Conquer with Fibonacci
 #11660. (s1) DP
+#11689. (g1) Inclusion-Exclusion Principle
 #11724. (s2) Union Find
 #11725. (s2) DFS
 #11726. (s3) DP
