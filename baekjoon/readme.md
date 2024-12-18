@@ -22,6 +22,7 @@
 #1967. (g4) DFS
 #1991. (s1) Graph Search
 #2075. (s3) Simple Implementation
+#2143. (g3) Map & Two Pointer
 #2166. (g5) Geometry
 #2579. (s3) DP
 #2606. (s3) DFS with Adjacency List
@@ -31,6 +32,7 @@
 #5430. (g5) Simple Implementation
 #5615. (p1) Finding Prime Number with Miller Rabin
 #8958. (b2) Simple Implementation
+#9019. (g4) BFS
 #9093. (b1) Stack
 #9251. (g5) LCS (Longest Common Subsequence)
 #9461. (s3) DP
