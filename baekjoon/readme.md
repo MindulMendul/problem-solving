@@ -73,5 +73,6 @@
 #18185. (d5) Greedy
 #18186. (d4) Greedy
 #18870. (s2) Set
+#19637. (s3) Binary Search
 #21736. (s3) BFS
 #30804. (s2) Two Pointer
