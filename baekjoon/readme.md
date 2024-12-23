@@ -40,6 +40,7 @@
 #9251. (g5) LCS (Longest Common Subsequence)
 #9461. (s3) DP
 #9465. (s1) DP
+#9655. (s5) DP
 #9663. (g4) Back Tracking
 #9935. (g4) String & Stack // Regex replace is too slow..
 #10026. (g5) Simple Implementation (with BFS)
@@ -60,6 +61,7 @@
 #11726. (s3) DP
 #11727. (s3) DP
 #12865. (g5) 0-1 Knapsack (DP)
+#12919. (g5) BFS
 #13172. (g4) Divide & Conquer
 #13549. (g5) BFS
 #15650. (s3) Exhaustive Search
