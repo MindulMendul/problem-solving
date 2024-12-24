@@ -70,6 +70,7 @@
 #15989. (g5) DP
 #16496. (p5) String Sort, Greedy
 #17219. (s4) Unordered Map
+#17386. (g3) Simple Implementation // CCW로 푸는 것도 공부하기
 #16953. (s2) BFS
 #17626. (s3) Exhaustive Search
 #18185. (d5) Greedy
