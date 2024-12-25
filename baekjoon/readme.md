@@ -12,6 +12,7 @@
 #1517. (p5) Inversion Counting
 #1629. (s1) Recursive
 #1644. (g3) Two Pointer
+#1655. (g2) Priority Queue
 #1753. (g4) Dijkstra
 #1764. (s4) Simple Implementation
 #1786. (p5) KMP
@@ -69,9 +70,9 @@
 #15663. (s2) Exhaustive Search with Hash Map
 #15989. (g5) DP
 #16496. (p5) String Sort, Greedy
+#16953. (s2) BFS
 #17219. (s4) Unordered Map
 #17386. (g3) Simple Implementation // CCW로 푸는 것도 공부하기
-#16953. (s2) BFS
 #17626. (s3) Exhaustive Search
 #18185. (d5) Greedy
 #18186. (d4) Greedy
