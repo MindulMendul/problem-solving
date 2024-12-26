@@ -27,6 +27,7 @@
 #2143. (g3) Map & Two Pointer
 #2166. (g5) Geometry
 #2467. (g5) Two Pointer
+#2493. (g5) Stack
 #2579. (s3) DP
 #2606. (s3) DFS with Adjacency List
 #2887. (p5) Kruskal
@@ -65,6 +66,7 @@
 #12919. (g5) BFS
 #13172. (g4) Divide & Conquer
 #13549. (g5) BFS
+#14719. (g5) Two Pointer
 #15650. (s3) Exhaustive Search
 #15654. (s3) Exhaustive Search
 #15663. (s2) Exhaustive Search with Hash Map
