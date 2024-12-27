@@ -21,6 +21,7 @@
 #1918. (g2) Stack
 #1927. (s2) Priority Queue
 #1931. (s1) Greedy
+#1958. (g4) LCS (Longest Common Subsequence)
 #1967. (g4) DFS
 #1991. (s1) Graph Search
 #2075. (s3) Simple Implementation
@@ -40,6 +41,7 @@
 #9019. (g4) BFS
 #9093. (b1) Stack
 #9251. (g5) LCS (Longest Common Subsequence)
+#9252. (g4) LCS (Longest Common Subsequence)
 #9461. (s3) DP
 #9465. (s1) DP
 #9655. (s5) DP
