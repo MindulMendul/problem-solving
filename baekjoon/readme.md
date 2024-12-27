@@ -80,5 +80,6 @@
 #18186. (d4) Greedy
 #18870. (s2) Set
 #19637. (s3) Binary Search
+#20149. (p4) Simple Implementation // CCW로 푸는 것도 공부하기
 #21736. (s3) BFS
 #30804. (s2) Two Pointer
