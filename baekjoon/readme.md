@@ -74,6 +74,7 @@
 #15663. (s2) Exhaustive Search with Hash Map
 #15989. (g5) DP
 #16496. (p5) String Sort, Greedy
+#16928. (g5) BFS
 #16953. (s2) BFS
 #17219. (s4) Unordered Map
 #17386. (g3) Simple Implementation // CCW로 푸는 것도 공부하기
