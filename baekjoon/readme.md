@@ -64,6 +64,7 @@
 #11725. (s2) DFS
 #11726. (s3) DP
 #11727. (s3) DP
+#12100. (g1) Simple Implementation with DFS
 #12865. (g5) 0-1 Knapsack (DP)
 #12919. (g5) BFS
 #13172. (g4) Divide & Conquer
