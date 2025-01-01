@@ -27,6 +27,7 @@
 #2075. (s3) Simple Implementation
 #2143. (g3) Map & Two Pointer
 #2166. (g5) Geometry
+#2437. (g2) Prefix Sum (Cumulative Sum)
 #2467. (g5) Two Pointer
 #2493. (g5) Stack
 #2579. (s3) DP
@@ -87,3 +88,4 @@
 #20149. (p4) Simple Implementation // CCW로 푸는 것도 공부하기
 #21736. (s3) BFS
 #30804. (s2) Two Pointer
+#30805. (g4) Two Pointer
