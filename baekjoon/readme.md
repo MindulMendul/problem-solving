@@ -1,6 +1,7 @@
 # 사용한 알고리즘 분석
 
 #1003. (s3) DP
+#1016. (g1) Sieve of Eratosthenes
 #1038. (g5) Exhaustive Search
 #1043. (g4) Union Find
 #1149. (s1) DP
