@@ -71,7 +71,9 @@
 #12919. (g5) BFS
 #13172. (g4) Divide & Conquer
 #13549. (g5) BFS
+#14543. (g5) Simple Implementation
 #14719. (g5) Two Pointer
+#14499. (g4) Simple Implementation
 #15650. (s3) Exhaustive Search
 #15654. (s3) Exhaustive Search
 #15663. (s2) Exhaustive Search with Hash Map
