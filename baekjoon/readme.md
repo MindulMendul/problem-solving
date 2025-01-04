@@ -9,6 +9,7 @@
 #1197. (g4) MST (Minimum Spanning Tree)
 #1238. (g3) Dijkstra of Two Way
 #1389. (s1) BFS
+#1456. (g5) Sieve of Eratosthenes
 #1463. (s3) DP
 #1517. (p5) Inversion Counting
 #1629. (s1) Recursive
