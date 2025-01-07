@@ -35,6 +35,7 @@
 #2579. (s3) DP
 #2606. (s3) DFS with Adjacency List
 #2887. (p5) Kruskal
+#3015. (p5) Stack + Binary Search
 #4344. (b1) Simple Implementation
 #4673. (s5) Simple Implementation
 #5430. (g5) Simple Implementation
@@ -75,10 +76,12 @@
 #14543. (g5) Simple Implementation
 #14719. (g5) Two Pointer
 #14499. (g4) Simple Implementation
+#14500. (g4) Simple Implementation
 #15650. (s3) Exhaustive Search
 #15654. (s3) Exhaustive Search
 #15663. (s2) Exhaustive Search with Hash Map
 #15989. (g5) DP
+#16236. (g3) Simple Implementation
 #16496. (p5) String Sort, Greedy
 #16928. (g5) BFS
 #16953. (s2) BFS
