@@ -80,6 +80,7 @@
 #15650. (s3) Exhaustive Search
 #15654. (s3) Exhaustive Search
 #15663. (s2) Exhaustive Search with Hash Map
+#15684. (g3) Back Tracking
 #15989. (g5) DP
 #16236. (g3) Simple Implementation
 #16496. (p5) String Sort, Greedy
