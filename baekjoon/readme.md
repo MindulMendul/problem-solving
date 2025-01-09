@@ -34,6 +34,7 @@
 #2493. (g5) Stack
 #2579. (s3) DP
 #2606. (s3) DFS with Adjacency List
+#2623. (g3) Topological Sort
 #2887. (p5) Kruskal
 #3015. (p5) Stack + Binary Search
 #4344. (b1) Simple Implementation
