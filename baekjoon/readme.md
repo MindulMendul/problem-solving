@@ -15,6 +15,7 @@
 #1629. (s1) Recursive
 #1644. (g3) Two Pointer
 #1655. (g2) Priority Queue
+#1744. (g4) Greedy
 #1753. (g4) Dijkstra
 #1764. (s4) Simple Implementation
 #1786. (p5) KMP
@@ -26,6 +27,7 @@
 #1958. (g4) LCS (Longest Common Subsequence)
 #1967. (g4) DFS
 #1991. (s1) Graph Search
+#2036. (g4) Greedy
 #2075. (s3) Simple Implementation
 #2143. (g3) Map & Two Pointer
 #2166. (g5) Geometry
