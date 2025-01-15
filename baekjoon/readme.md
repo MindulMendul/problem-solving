@@ -78,9 +78,11 @@
 #14719. (g5) Two Pointer
 #14499. (g4) Simple Implementation
 #14500. (g4) Simple Implementation
+#14890. (g3) Simple Implementation
 #15650. (s3) Exhaustive Search
 #15654. (s3) Exhaustive Search
 #15663. (s2) Exhaustive Search with Hash Map
+#15683. (g3) Simple Implementation
 #15684. (g3) Back Tracking
 #15989. (g5) DP
 #16236. (g3) Simple Implementation
