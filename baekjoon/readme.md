@@ -93,6 +93,7 @@
 #16928. (g5) BFS
 #16953. (s2) BFS
 #17219. (s4) Unordered Map
+#17299. (g3) Stack
 #17386. (g3) Simple Implementation // CCW로 푸는 것도 공부하기
 #17626. (s3) Exhaustive Search
 #18185. (d5) Greedy
