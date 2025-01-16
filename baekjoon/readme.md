@@ -80,6 +80,7 @@
 #14719. (g5) Two Pointer
 #14499. (g4) Simple Implementation
 #14500. (g4) Simple Implementation
+#14502. (g4) Simple Implementation
 #14890. (g3) Simple Implementation
 #15650. (s3) Exhaustive Search
 #15654. (s3) Exhaustive Search
