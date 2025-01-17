@@ -1,6 +1,7 @@
 # 사용한 알고리즘 분석
 
 #1003. (s3) DP
+#1005. (g3) DP + DFS
 #1016. (g1) Sieve of Eratosthenes
 #1038. (g5) Exhaustive Search
 #1043. (g4) Union Find
@@ -51,6 +52,7 @@
 #9252. (g4) LCS (Longest Common Subsequence)
 #9461. (s3) DP
 #9465. (s1) DP
+#9466. (g3) Finding Cycle
 #9655. (s5) DP
 #9663. (g4) Back Tracking
 #9935. (g4) String & Stack // Regex replace is too slow..
