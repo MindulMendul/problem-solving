@@ -32,6 +32,8 @@
 #2075. (s3) Simple Implementation
 #2143. (g3) Map & Two Pointer
 #2166. (g5) Geometry
+#2252. (g3) Topological Sort
+#2357. (g1) Segment Tree
 #2437. (g2) Prefix Sum (Cumulative Sum)
 #2467. (g5) Two Pointer
 #2493. (g5) Stack
