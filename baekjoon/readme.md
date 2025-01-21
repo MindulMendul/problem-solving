@@ -19,6 +19,7 @@
 #1744. (g4) Greedy
 #1753. (g4) Dijkstra
 #1764. (s4) Simple Implementation
+#1766. (g2) Topological Sort
 #1786. (p5) KMP
 #1806. (g4) Two Pointer
 #1916. (g4) Dijkstra
