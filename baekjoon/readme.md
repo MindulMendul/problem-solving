@@ -47,6 +47,7 @@
 #5430. (g5) Simple Implementation
 #5615. (p1) Finding Prime Number with Miller Rabin
 #7453. (g2) Two Pointer
+#7579. (g3) 0-1 Knapsack (DP)
 #8958. (b2) Simple Implementation
 #9019. (g4) BFS
 #9093. (b1) Stack
