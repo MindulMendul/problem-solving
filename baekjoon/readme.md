@@ -42,6 +42,7 @@
 #2579. (s3) DP
 #2606. (s3) DFS with Adjacency List
 #2623. (g3) Topological Sort
+#2638. (g3) Simple Implementation (BFS)
 #2887. (p5) Kruskal
 #3015. (p5) Stack + Binary Search
 #4344. (b1) Simple Implementation
@@ -49,6 +50,7 @@
 #5430. (g5) Simple Implementation
 #5615. (p1) Finding Prime Number with Miller Rabin
 #7453. (g2) Two Pointer
+#7570. (g2) Greedy
 #7579. (g3) 0-1 Knapsack (DP)
 #8958. (b2) Simple Implementation
 #9019. (g4) BFS
