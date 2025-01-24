@@ -30,6 +30,7 @@
 #1967. (g4) DFS
 #1991. (s1) Graph Search
 #2036. (g4) Greedy
+#2042. (g1) Segment Tree
 #2075. (s3) Simple Implementation
 #2143. (g3) Map & Two Pointer
 #2166. (g5) Geometry
@@ -51,6 +52,7 @@
 #7453. (g2) Two Pointer
 #7579. (g3) 0-1 Knapsack (DP)
 #8958. (b2) Simple Implementation
+#8972. (g3) Simple Implementation
 #9019. (g4) BFS
 #9093. (b1) Stack
 #9251. (g5) LCS (Longest Common Subsequence)
@@ -73,6 +75,7 @@
 #11404. (g4) Floyd Warshall
 #11438. (p5) LCA (Lowest Common Ancestor)
 #11444. (g2) Divide & Conquer with Fibonacci
+#11505. (g1) Segment Tree
 #11660. (s1) DP
 #11689. (g1) Inclusion-Exclusion Principle
 #11724. (s2) Union Find
@@ -98,6 +101,7 @@
 #15989. (g5) DP
 #16236. (g3) Simple Implementation
 #16496. (p5) String Sort, Greedy
+#16724. (g3) Simple Implementation (Find Cycle)
 #16928. (g5) BFS
 #16946. (g2) BFS (FloodFill)
 #16953. (s2) BFS
