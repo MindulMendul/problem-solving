@@ -16,6 +16,7 @@
 #1629. (s1) Recursive
 #1644. (g3) Two Pointer
 #1655. (g2) Priority Queue
+#1717. (g5) Union Find
 #1744. (g4) Greedy
 #1753. (g4) Dijkstra
 #1764. (s4) Simple Implementation
@@ -51,6 +52,7 @@
 #5430. (g5) Simple Implementation
 #5615. (p1) Finding Prime Number with Miller Rabin
 #7453. (g2) Two Pointer
+#7569. (g5) BFS
 #7570. (g2) Greedy
 #7579. (g3) 0-1 Knapsack (DP)
 #8958. (b2) Simple Implementation
