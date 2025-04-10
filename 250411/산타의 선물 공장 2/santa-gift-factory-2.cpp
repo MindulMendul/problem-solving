@@ -40,6 +40,7 @@ void init(){
 }
 void move_all(){
     int src, dst; cin>>src>>dst;
+    if(len[src]==0) {cout<<len[dst]<<'\n'; return;}
     items[head[dst]].prev=tail[src];
     items[tail[src]].next=head[dst];
     head[dst]=head[src];
