@@ -45,12 +45,13 @@ void init_route(int n, int k){
 int find_man(int route_ind,int route_dir, int cur_turn){
     int cnt=0;
     int dir=route[route_ind].first;
-    if(route_dir==0) dir=(dir+2)%4;
+    if(route_dir==0) dir=(route[route_ind-1].first+2)%4;
     int rx=route[route_ind].second.first-dx[dir];
     int ry=route[route_ind].second.second-dy[dir];
 
     for(int i=0; i<3; i++){
         rx+=dx[dir]; ry+=dy[dir];
+        //if(cur_turn==42) cout<<"dir"<<dir<<"/"<<rx<<" "<<ry<<"asdf"<<endl;
         if(rx<0 || rx>=N || ry<0 || ry>=N) break;
 
         for(int m=0; m<M; m++){
@@ -114,14 +115,13 @@ int main() {
         ans+=find_man(route_ind, route_dir, turn);
         // if(turn>15){
         //     cout<<ans<<" ";
-        //     cout<<" turn"<<turn<<" rx"<<rx<<","<<ry<<"/";
+        //     cout<<" turn"<<turn<<" dir"<<route[route_ind].first<<" rx"<<rx<<","<<ry<<"/";
         //     for(int m=0; m<M; m++){
         //         if(man_x[m]>-1)cout<<man_x[m]<<","<<man_y[m]<<" ";
         //     }
         //     cout<<endl;
         // }
     }
-    //cout<<endl;
     cout<<ans;
     return 0;
 }
