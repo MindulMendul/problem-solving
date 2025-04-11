@@ -53,9 +53,7 @@ int find_man(int route_ind,int route_dir, int cur_turn){
         rx+=dx[dir]; ry+=dy[dir];
         if(rx<0 || rx>=N || ry<0 || ry>=N) break;
 
-        bool is_man=false;
         for(int m=0; m<M; m++){
-            
             if(man_x[m]==rx && man_y[m]==ry) {
                 bool is_tree=false;
                 for(int h=0; h<H; h++){
@@ -66,14 +64,13 @@ int find_man(int route_ind,int route_dir, int cur_turn){
                 }
                 if(is_tree) continue;
 
-                is_man=true;
+                cnt++;
                 man_x[m]=-100'000'000;
                 man_y[m]=-100'000'000;
-                break;
             }
         }
-        if(is_man) cnt++;
     }
+    // cout<<cur_turn*cnt<<"/";
     return cur_turn*cnt;
 }
 
@@ -94,10 +91,6 @@ int main() {
     int ry=route[route_ind].second.second;
 
     for(int turn=1; turn<=K; turn++){
-        route_ind+=(route_dir)?1:-1;
-        if(route_ind==route.size()-1) {route_dir=0;}
-        else if(route_ind==0){route_dir=1;}
-
         for(int m=0; m<M; m++){
             if(get_dis(rx, ry, man_x[m], man_y[m])>3) continue;
             int m_x=man_x[m]+dx[man_d[m]], m_y=man_y[m]+dy[man_d[m]];
@@ -111,16 +104,24 @@ int main() {
             man_y[m]=m_y;
         }
 
+        route_ind+=(route_dir)?1:-1;
+        if(route_ind==route.size()-1) {route_dir=0;}
+        else if(route_ind==0){route_dir=1;}
+
         rx=route[route_ind].second.first;
         ry=route[route_ind].second.second;
+        int rd=route[route_ind].first;
+        if(route_dir==0) rd=(rd+2)%4;
 
         ans+=find_man(route_ind, route_dir, turn);
-        // cout<<"ans"<<ans<<"/ turn"<<turn<<" rx"<<rx<<","<<ry<<"/";
+        // cout<<ans<<" ";
+        // cout<<" turn"<<turn<<" rx"<<rx<<","<<ry<<"/";
         // for(int m=0; m<M; m++){
         //     cout<<man_x[m]<<","<<man_y[m]<<" ";
-        // }cout<<endl;
+        // }
+        // cout<<endl;
     }
-
+    // cout<<endl;
     cout<<ans;
     return 0;
 }
