@@ -110,10 +110,8 @@ int main() {
 
         rx=route[route_ind].second.first;
         ry=route[route_ind].second.second;
-        int rd=route[route_ind].first;
-        if(route_dir==0) rd=(rd+2)%4;
 
-        ans+=find_man(route_ind, rd, turn);
+        ans+=find_man(route_ind, route_dir, turn);
         // if(turn>15){
         //     cout<<ans<<" ";
         //     cout<<" turn"<<turn<<" rx"<<rx<<","<<ry<<"/";
