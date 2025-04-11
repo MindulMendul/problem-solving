@@ -42,11 +42,12 @@ void init_route(int n, int k){
     }
 }
 
-int find_man(int route_ind, int cur_turn){
+int find_man(int route_ind,int route_dir, int cur_turn){
     int cnt=0;
     int dir=route[route_ind].first;
     int rx=route[route_ind].second.first-dx[dir];
     int ry=route[route_ind].second.second-dy[dir];
+    if(route_dir==0) dir=(dir+2)%4;
 
     for(int i=0; i<3; i++){
         rx+=dx[dir]; ry+=dy[dir];
@@ -113,8 +114,8 @@ int main() {
         rx=route[route_ind].second.first;
         ry=route[route_ind].second.second;
 
-        ans+=find_man(route_ind, turn);
-        // cout<<"ans"<<ans<<"\nturn"<<turn<<" rx"<<rx<<","<<ry<<"/";
+        ans+=find_man(route_ind, route_dir, turn);
+        // cout<<"ans"<<ans<<"/ turn"<<turn<<" rx"<<rx<<","<<ry<<"/";
         // for(int m=0; m<M; m++){
         //     cout<<man_x[m]<<","<<man_y[m]<<" ";
         // }cout<<endl;
