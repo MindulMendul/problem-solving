@@ -19,6 +19,7 @@ int cnt_move_warrior;
 int stone_warrior;
 int attack_warrior;
 
+int back_x[50][50];
 int back_y[50][50];
 vector<pair<int, int> > warrior;
 vector<pair<int, int> > route;
@@ -46,7 +47,7 @@ void init_tmp_light(){
 
 void init_route(){
     init_tmp_light();
-    for(int i=0; i<N; i++) for(int j=0; j<N; j++) {light[i][j]=0; back_y[i][j]=0;}
+    for(int i=0; i<N; i++) for(int j=0; j<N; j++) {back_x[i][j]=0; back_y[i][j]=0;}
     queue<pair<int, int> > q;
     q.push(make_pair(sc, sr));
     tmp_light[sr][sc]=1;
@@ -69,17 +70,17 @@ void init_route(){
             if(field[yy][xx]) continue;
             q.push(make_pair(xx,yy));
             tmp_light[yy][xx]=1;
-            light[yy][xx]=x;
+            back_x[yy][xx]=x;
             back_y[yy][xx]=y;
         }
     }
 
     if(!flag) return;
-    
+
     while(!(tx==sc && ty==sr)){
         route.push_back(make_pair(tx, ty));
         int txx=tx, tyy=ty;
-        tx=light[tyy][txx];
+        tx=back_x[tyy][txx];
         ty=back_y[tyy][txx];
     }
     
@@ -285,12 +286,12 @@ void sight(){
     init_tmp_light(); stone=sight_right();
     if(stone_warrior<stone){stone_warrior=stone; copy_light();}
 
-    // cout<<"light"<<"\n";
-    // for(int i=0; i<N; i++){
-    //     for(int j=0; j<N; j++){
-    //         cout<<light[i][j]<<"/"<<cnt_warrior[i][j]<<" ";
-    //     }cout<<endl;
-    // }
+    cout<<"light"<<"\n";
+    for(int i=0; i<N; i++){
+        for(int j=0; j<N; j++){
+            cout<<light[i][j]<<"/"<<cnt_warrior[i][j]<<" ";
+        }cout<<endl;
+    }
 }
 
 void move_warrior(){
