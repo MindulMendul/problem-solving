@@ -52,10 +52,10 @@ void init_route(){
     q.push(make_pair(sc, sr));
     tmp_light[sr][sc]=1;
 
-    int tx, ty, flag=false;
+    int tx=sc, ty=sr, flag=false;
     while(!q.empty()){
-        pair<int, int> top=q.front(); q.pop();
-        int x=top.first, y=top.second;
+        int x=q.front().first, y=q.front().second;
+        q.pop();
 
         if(x==ec && y==er){
             tx=x; ty=y;
@@ -65,7 +65,7 @@ void init_route(){
 
         for(int d=0; d<4; d++){
             int xx=x+dx[d], yy=y+dy[d];
-            if(xx<0 || xx>=N || yy<0 || y>=N) continue;
+            if(xx<0 || xx>=N || yy<0 || yy>=N) continue;
             if(tmp_light[yy][xx]) continue;
             if(field[yy][xx]) continue;
             q.push(make_pair(xx,yy));
@@ -338,13 +338,29 @@ void sight(){
     int stone;
     init_cnt_warrior();
     init_tmp_light(); stone=sight_up();
-    if(stone_warrior<stone){stone_warrior=stone; copy_light();}
+    if(stone_warrior<stone){
+        stone_warrior=stone;
+        // cout<<"a1"<<endl;
+        copy_light();
+    }
     init_tmp_light(); stone=sight_down();
-    if(stone_warrior<stone){stone_warrior=stone; copy_light();}
+    if(stone_warrior<stone){
+        stone_warrior=stone;
+        // cout<<"a2"<<endl;
+        copy_light();
+        }
     init_tmp_light(); stone=sight_left();
-    if(stone_warrior<stone){stone_warrior=stone; copy_light();}
+    if(stone_warrior<stone){
+        stone_warrior=stone;
+        // cout<<"a3"<<endl;
+        copy_light();
+    }
     init_tmp_light(); stone=sight_right();
-    if(stone_warrior<stone){stone_warrior=stone; copy_light();}
+    if(stone_warrior<stone){
+        stone_warrior=stone;
+        // cout<<"a4"<<endl;
+        copy_light();
+    }
 }
 
 void move_warrior(){
