@@ -13,7 +13,7 @@ int rdy[4]={0,0,-1,1};
 int field[50][50];
 int light[50][50];
 int tmp_light[50][50];
-int cnt_warrior[50][50];
+int cnt_warrior[51][51];
 int sr, sc, er, ec;
 int cnt_move_warrior;
 int stone_warrior;
@@ -450,16 +450,15 @@ int main() {
 
         sight();
 
-        // if(turn>0){
-        //     cout<<"turn"<<turn<<"\n";
+        // if(turn>1){
+        //     cout<<"t"<<turn<<"\n";
         //     for(int i=0; i<N; i++){
         //         for(int j=0; j<N; j++){
-        //             cout<<light[i][j]<<"/"<<cnt_warrior[i][j]<<" ";
+        //             cout<<cnt_warrior[i][j]<<" ";
         //         }cout<<endl;
         //     }
         // }
         move_warrior();
-        // cout<<"warr"<<warrior.size()<<endl;
 
         cout<<cnt_move_warrior<<" "<<stone_warrior<<" "<<attack_warrior<<"\n";
     }
