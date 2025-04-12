@@ -18,10 +18,8 @@ int cnt_move_warrior;
 int stone_warrior;
 int attack_warrior;
 
-int visited[50][50];
 int back_x[50][50];
 int back_y[50][50];
-
 vector<pair<int, int> > warrior;
 vector<pair<int, int> > route;
 
@@ -31,19 +29,26 @@ int get_distance(int x1, int y1, int x2, int y2){
     return xx+yy;
 }
 
-void init_visited(){
+void init_cnt_warrior(){
     for(int i=0; i<N; i++){
         for(int j=0; j<N; j++){
-            visited[i][j]=0;
+            cnt_warrior[i][j]=0;
         }
+    }
+    for(int m=0; m<warrior.size(); m++){
+        cnt_warrior[warrior[m].second][warrior[m].first]++;
     }
 }
 
+void init_tmp_light(){
+    for(int i=0; i<N; i++) for(int j=0; j<N; j++) tmp_light[i][j]=0;
+}
+
 void init_route(){
-    init_visited();
+    init_tmp_light();
     queue<pair<int, int> > q;
     q.push(make_pair(sc, sr));
-    visited[sr][sc]=1;
+    tmp_light[sr][sc]=1;
 
     int tx, ty;
     while(!q.empty()){
@@ -58,10 +63,10 @@ void init_route(){
         for(int d=0; d<4; d++){
             int xx=x+dx[d], yy=y+dy[d];
             if(xx<0 || xx>=N || yy<0 || y>=N) continue;
-            if(visited[yy][xx]) continue;
+            if(tmp_light[yy][xx]) continue;
             if(field[yy][xx]) continue;
             q.push(make_pair(xx,yy));
-            visited[yy][xx]=1;
+            tmp_light[yy][xx]=1;
             back_x[yy][xx]=x;
             back_y[yy][xx]=y;
         }
@@ -78,21 +83,6 @@ void init_route(){
         route.push_back(reverse_route[reverse_route.size()-1]);
         reverse_route.pop_back();
     }
-}
-
-void init_cnt_warrior(){
-    for(int i=0; i<N; i++){
-        for(int j=0; j<N; j++){
-            cnt_warrior[i][j]=0;
-        }
-    }
-    for(int m=0; m<warrior.size(); m++){
-        cnt_warrior[warrior[m].second][warrior[m].first]++;
-    }
-}
-
-void init_tmp_light(){
-    for(int i=0; i<N; i++) for(int j=0; j<N; j++) tmp_light[i][j]=0;
 }
 
 void copy_light(){
