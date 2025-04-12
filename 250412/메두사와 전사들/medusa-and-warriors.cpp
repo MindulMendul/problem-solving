@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <algorithm>
 
 using namespace std;
 
@@ -18,7 +19,6 @@ int cnt_move_warrior;
 int stone_warrior;
 int attack_warrior;
 
-int back_x[50][50];
 int back_y[50][50];
 vector<pair<int, int> > warrior;
 vector<pair<int, int> > route;
@@ -46,17 +46,19 @@ void init_tmp_light(){
 
 void init_route(){
     init_tmp_light();
+    for(int i=0; i<N; i++) for(int j=0; j<N; j++) {light[i][j]=0; back_y[i][j]=0;}
     queue<pair<int, int> > q;
     q.push(make_pair(sc, sr));
     tmp_light[sr][sc]=1;
 
-    int tx, ty;
+    int tx, ty, flag=false;
     while(!q.empty()){
         pair<int, int> top=q.front(); q.pop();
         int x=top.first, y=top.second;
 
         if(x==ec && y==er){
             tx=x; ty=y;
+            flag=true;
             break;
         }
 
@@ -67,22 +69,21 @@ void init_route(){
             if(field[yy][xx]) continue;
             q.push(make_pair(xx,yy));
             tmp_light[yy][xx]=1;
-            back_x[yy][xx]=x;
+            light[yy][xx]=x;
             back_y[yy][xx]=y;
         }
     }
-    vector<pair<int,int> > reverse_route;
+
+    if(!flag) return;
+    
     while(!(tx==sc && ty==sr)){
-        reverse_route.push_back(make_pair(tx, ty));
+        route.push_back(make_pair(tx, ty));
         int txx=tx, tyy=ty;
-        tx=back_x[tyy][txx];
+        tx=light[tyy][txx];
         ty=back_y[tyy][txx];
     }
-   
-    while(reverse_route.size()>0){
-        route.push_back(reverse_route[reverse_route.size()-1]);
-        reverse_route.pop_back();
-    }
+    
+    reverse(route.begin(), route.end());
 }
 
 void copy_light(){
@@ -104,18 +105,18 @@ int sight_up(){
     for(int i=1; i<=N; i++){
         int x=sc, y=sr-i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-        if(cnt_warrior[y+1][x]>0 || tmp_light[y+1][x]==0) tmp_light[y][x]=0;
+        if(cnt_warrior[y+1][x]>0 || tmp_light[y+1][x]!=1) tmp_light[y][x]=0;
         else tmp_light[y][x]=1;
     }
 
     for(int i=1; i<=N; i++){
         int x=sc+i, y=sr-i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-        tmp_light[y][x]=1;
+        if(tmp_light[y+1][x-1]==1 && cnt_warrior[y+1][x-1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x, yy=y-j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
-            if(cnt_warrior[yy+1][xx]>0 || tmp_light[yy+1][xx]==0) {
+            if(cnt_warrior[yy+1][xx]>0 || tmp_light[yy+1][xx]!=1) {
                 tmp_light[yy][xx]=0;
                 if(xx+1<N) tmp_light[yy][xx+1]=0;
             }
@@ -126,11 +127,11 @@ int sight_up(){
     for(int i=1; i<=N; i++){
         int x=sc-i, y=sr-i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-        tmp_light[y][x]=1;
+         if(tmp_light[y+1][x+1]==1 && cnt_warrior[y+1][x+1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x, yy=y-j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
-            if(cnt_warrior[yy+1][xx]>0 || tmp_light[yy+1][xx]==0) {
+            if(cnt_warrior[yy+1][xx]>0 || tmp_light[yy+1][xx]!=1) {
                 tmp_light[yy][xx]=0;
                 if(xx>0) tmp_light[yy][xx-1]=0;
             }
@@ -154,7 +155,7 @@ int sight_down(){
     for(int i=1; i<=N; i++){
         int x=sc-i, y=sr+i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-        tmp_light[y][x]=1;
+         if(tmp_light[y-1][x+1]==1 && cnt_warrior[y-1][x+1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x, yy=y+j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -169,7 +170,7 @@ int sight_down(){
     for(int i=1; i<=N; i++){
         int x=sc+i, y=sr+i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-        tmp_light[y][x]=1;
+         if(tmp_light[y-1][x-1]==1 && cnt_warrior[y-1][x-1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x, yy=y+j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -197,7 +198,7 @@ int sight_left(){
     for(int i=1; i<=N; i++){
         int x=sc-i, y=sr+i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-        tmp_light[y][x]=1;
+         if(tmp_light[y-1][x+1]==1 && cnt_warrior[y-1][x+1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x-j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -212,7 +213,7 @@ int sight_left(){
     for(int i=1; i<=N; i++){
         int x=sc-i, y=sr-i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-        tmp_light[y][x]=1;
+         if(tmp_light[y+1][x+1]==1 && cnt_warrior[y+1][x+1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x-j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -240,7 +241,7 @@ int sight_right(){
     for(int i=1; i<=N; i++){
         int x=sc+i, y=sr+i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-        tmp_light[y][x]=1;
+         if(tmp_light[y-1][x-1]==1 && cnt_warrior[y-1][x-1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x+j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -255,7 +256,7 @@ int sight_right(){
     for(int i=1; i<=N; i++){
         int x=sc+i, y=sr-i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-        tmp_light[y][x]=1;
+         if(tmp_light[y+1][x-1]==1 && cnt_warrior[y+1][x-1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x+j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -346,9 +347,9 @@ void move_warrior(){
 }
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
+    // ios_base::sync_with_stdio(false);
+    // cin.tie(NULL);
+    // cout.tie(NULL);
 
     cin>>N>>M;
     cin>>sr>>sc>>er>>ec;
@@ -361,13 +362,12 @@ int main() {
             cin>>field[i][j];
         }
     }
-
     init_route();
     if(route.size()==0) {
         cout<<-1;
         return 0;
     }
-
+   
     for(int turn=1; turn<route.size(); turn++){
         // 1. 메두사 이동
         sc=route[turn-1].first;
