@@ -113,7 +113,7 @@ int sight_up(){
     for(int i=1; i<=N; i++){
         int x=sc+i, y=sr-i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-        if(tmp_light[y+1][x-1]==1 && cnt_warrior[y+1][x-1]!=1) tmp_light[y][x]=1;
+        if(tmp_light[y+1][x-1]==1 && cnt_warrior[y+1][x-1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x, yy=y-j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -129,7 +129,7 @@ int sight_up(){
     for(int i=1; i<=N; i++){
         int x=sc-i, y=sr-i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-         if(tmp_light[y+1][x+1]==1 && cnt_warrior[y+1][x+1]!=1) tmp_light[y][x]=1;
+         if(tmp_light[y+1][x+1]==1 && cnt_warrior[y+1][x+1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x, yy=y-j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -158,7 +158,7 @@ int sight_down(){
     for(int i=1; i<=N; i++){
         int x=sc-i, y=sr+i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-         if(tmp_light[y-1][x+1]==1 && cnt_warrior[y-1][x+1]!=1) tmp_light[y][x]=1;
+         if(tmp_light[y-1][x+1]==1 && cnt_warrior[y-1][x+1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x, yy=y+j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -174,7 +174,7 @@ int sight_down(){
     for(int i=1; i<=N; i++){
         int x=sc+i, y=sr+i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-        if(tmp_light[y-1][x-1]==1 && cnt_warrior[y-1][x-1]!=1) tmp_light[y][x]=1;
+        if(tmp_light[y-1][x-1]==1 && cnt_warrior[y-1][x-1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x, yy=y+j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -203,7 +203,7 @@ int sight_left(){
     for(int i=1; i<=N; i++){
         int x=sc-i, y=sr+i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-         if(tmp_light[y-1][x+1]==1 && cnt_warrior[y-1][x+1]!=1) tmp_light[y][x]=1;
+        if(tmp_light[y-1][x+1]==1 && cnt_warrior[y-1][x+1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x-j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -219,12 +219,12 @@ int sight_left(){
     for(int i=1; i<=N; i++){
         int x=sc-i, y=sr-i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-         if(tmp_light[y+1][x+1]==1 && cnt_warrior[y+1][x+1]!=1) tmp_light[y][x]=1;
+        if(tmp_light[y+1][x+1]==1 && cnt_warrior[y+1][x+1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x-j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
             if(tmp_light[yy][xx]==2) continue;
-            if(cnt_warrior[yy][xx-1]>0 || tmp_light[yy][xx-1]!=1) {
+            if(cnt_warrior[yy][xx+1]>0 || tmp_light[yy][xx+1]!=1) {
                 tmp_light[yy][xx]=2;
                 if(yy>0) tmp_light[yy-1][xx]=2;
             }
@@ -248,7 +248,7 @@ int sight_right(){
     for(int i=1; i<=N; i++){
         int x=sc+i, y=sr+i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-         if(tmp_light[y-1][x-1]==1 && cnt_warrior[y-1][x-1]!=1) tmp_light[y][x]=1;
+         if(tmp_light[y-1][x-1]==1 && cnt_warrior[y-1][x-1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x+j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -264,7 +264,7 @@ int sight_right(){
     for(int i=1; i<=N; i++){
         int x=sc+i, y=sr-i;
         if(x<0 || x>=N || y<0 || y>=N) break;
-         if(tmp_light[y+1][x-1]==1 && cnt_warrior[y+1][x-1]!=1) tmp_light[y][x]=1;
+         if(tmp_light[y+1][x-1]==1 && cnt_warrior[y+1][x-1]==0) tmp_light[y][x]=1;
         for(int j=1; j<N; j++){
             int xx=x+j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
@@ -293,13 +293,6 @@ void sight(){
     if(stone_warrior<stone){stone_warrior=stone; copy_light();}
     init_tmp_light(); stone=sight_right();
     if(stone_warrior<stone){stone_warrior=stone; copy_light();}
-
-    // cout<<"light"<<"\n";
-    // for(int i=0; i<N; i++){
-    //     for(int j=0; j<N; j++){
-    //         cout<<light[i][j]<<"/"<<cnt_warrior[i][j]<<" ";
-    //     }cout<<endl;
-    // }
 }
 
 void move_warrior(){
@@ -388,6 +381,15 @@ int main() {
         }
 
         sight();
+
+        // if(turn>3){
+        //     cout<<"turn"<<turn<<"\n";
+        //     for(int i=0; i<N; i++){
+        //         for(int j=0; j<N; j++){
+        //             cout<<light[i][j]<<"/"<<cnt_warrior[i][j]<<" ";
+        //         }cout<<endl;
+        //     }
+        // }
         move_warrior();
         // cout<<"warr"<<warrior.size()<<endl;
 
