@@ -117,8 +117,7 @@ int sight_up(){
         for(int j=1; j<N; j++){
             int xx=x, yy=y-j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
-            if(tmp_light[yy][xx]==2) continue;
-            if(cnt_warrior[yy+1][xx]>0 || tmp_light[yy+1][xx]!=1) {
+            if(tmp_light[yy][xx]==2 || cnt_warrior[yy+1][xx]>0 || tmp_light[yy+1][xx]!=1) {
                 tmp_light[yy][xx]=2;
                 if(xx+1<N) tmp_light[yy][xx+1]=2;
             }
@@ -133,8 +132,7 @@ int sight_up(){
         for(int j=1; j<N; j++){
             int xx=x, yy=y-j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
-            if(tmp_light[yy][xx]==2) continue;
-            if(cnt_warrior[yy+1][xx]>0 || tmp_light[yy+1][xx]!=1) {
+            if(tmp_light[yy][xx]==2 || cnt_warrior[yy+1][xx]>0 || tmp_light[yy+1][xx]!=1) {
                 tmp_light[yy][xx]=2;
                 if(xx>0) tmp_light[yy][xx-1]=2;
             }
@@ -162,8 +160,7 @@ int sight_down(){
         for(int j=1; j<N; j++){
             int xx=x, yy=y+j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
-            if(tmp_light[yy][xx]==2) continue;
-            if(cnt_warrior[yy-1][xx]>0 || tmp_light[yy-1][xx]!=1) {
+            if(tmp_light[yy][xx]==2 || cnt_warrior[yy-1][xx]>0 || tmp_light[yy-1][xx]!=1) {
                 tmp_light[yy][xx]=2;
                 if(xx>0) tmp_light[yy][xx-1]=2;
             }
@@ -178,8 +175,7 @@ int sight_down(){
         for(int j=1; j<N; j++){
             int xx=x, yy=y+j;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
-            if(tmp_light[yy][xx]==2) continue;
-            if(cnt_warrior[yy-1][xx]>0 || tmp_light[yy-1][xx]!=1) {
+            if(tmp_light[yy][xx]==2 || cnt_warrior[yy-1][xx]>0 || tmp_light[yy-1][xx]!=1) {
                 tmp_light[yy][xx]=2;
                 if(xx+1<N) tmp_light[yy][xx+1]=2;
             }
@@ -207,8 +203,7 @@ int sight_left(){
         for(int j=1; j<N; j++){
             int xx=x-j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
-            if(tmp_light[yy][xx]==2) continue;
-            if(cnt_warrior[yy][xx+1]>0 || tmp_light[yy][xx+1]!=1) {
+            if(tmp_light[yy][xx]==2 || cnt_warrior[yy][xx+1]>0 || tmp_light[yy][xx+1]!=1) {
                 tmp_light[yy][xx]=2;
                 if(yy+1<N) tmp_light[yy+1][xx]=2;
             }
@@ -223,8 +218,7 @@ int sight_left(){
         for(int j=1; j<N; j++){
             int xx=x-j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
-            if(tmp_light[yy][xx]==2) continue;
-            if(cnt_warrior[yy][xx+1]>0 || tmp_light[yy][xx+1]!=1) {
+            if(tmp_light[yy][xx]==2 || cnt_warrior[yy][xx+1]>0 || tmp_light[yy][xx+1]!=1) {
                 tmp_light[yy][xx]=2;
                 if(yy>0) tmp_light[yy-1][xx]=2;
             }
@@ -252,8 +246,7 @@ int sight_right(){
         for(int j=1; j<N; j++){
             int xx=x+j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
-            if(tmp_light[yy][xx]==2) continue;
-            if(cnt_warrior[yy][xx-1]>0 || tmp_light[yy][xx-1]!=1) {
+            if(tmp_light[yy][xx]==2 || cnt_warrior[yy][xx-1]>0 || tmp_light[yy][xx-1]!=1) {
                 tmp_light[yy][xx]=2;
                 if(yy+1<N) tmp_light[yy+1][xx]=2;
             }
@@ -268,8 +261,7 @@ int sight_right(){
         for(int j=1; j<N; j++){
             int xx=x+j, yy=y;
             if(xx<0 || xx>=N || yy<0 || yy>=N) break;
-            if(tmp_light[yy][xx]==2) continue;
-            if(cnt_warrior[yy][xx-1]>0 || tmp_light[yy][xx-1]!=1) {
+            if(tmp_light[yy][xx]==2 || cnt_warrior[yy][xx-1]>0 || tmp_light[yy][xx-1]!=1) {
                 tmp_light[yy][xx]=2;
                 if(yy>0) tmp_light[yy-1][xx]=2;
             }
@@ -382,7 +374,7 @@ int main() {
 
         sight();
 
-        // if(turn>3){
+        // if(turn>2){
         //     cout<<"turn"<<turn<<"\n";
         //     for(int i=0; i<N; i++){
         //         for(int j=0; j<N; j++){
