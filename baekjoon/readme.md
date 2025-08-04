@@ -16,6 +16,7 @@
 #1629. (s1) Recursive
 #1644. (g3) Two Pointer
 #1655. (g2) Priority Queue
+#1697. (s1) BFS
 #1717. (g5) Union Find
 #1744. (g4) Greedy
 #1753. (g4) Dijkstra
@@ -35,6 +36,7 @@
 #2075. (s3) Simple Implementation
 #2143. (g3) Map & Two Pointer
 #2166. (g5) Geometry
+#2230. (g5) Two Pointer
 #2252. (g3) Topological Sort
 #2295. (g4) Binary Search
 #2357. (g1) Segment Tree
@@ -54,6 +56,7 @@
 #7453. (g2) Two Pointer
 #7569. (g5) BFS
 #7570. (g2) Greedy
+#7570. (g5) Queue? // seems like BFS
 #7579. (g3) 0-1 Knapsack (DP)
 #8958. (b2) Simple Implementation
 #8972. (g3) Simple Implementation
