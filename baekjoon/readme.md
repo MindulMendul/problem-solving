@@ -17,6 +17,7 @@
 #1644. (g3) Two Pointer
 #1655. (g2) Priority Queue
 #1697. (s1) BFS
+#1715. (g5) Greedy
 #1717. (g5) Union Find
 #1744. (g4) Greedy
 #1753. (g4) Dijkstra
@@ -36,8 +37,10 @@
 #2075. (s3) Simple Implementation
 #2143. (g3) Map & Two Pointer
 #2166. (g5) Geometry
+#2225. (g5) DP
 #2230. (g5) Two Pointer
 #2252. (g3) Topological Sort
+#2294. (g5) DP
 #2295. (g4) Binary Search
 #2357. (g1) Segment Tree
 #2437. (g2) Prefix Sum (Cumulative Sum)
@@ -100,6 +103,7 @@
 #14500. (g4) Simple Implementation
 #14502. (g4) Simple Implementation
 #14890. (g3) Simple Implementation
+#15486. (g5) DP
 #15650. (s3) Exhaustive Search
 #15654. (s3) Exhaustive Search
 #15663. (s2) Exhaustive Search with Hash Map
