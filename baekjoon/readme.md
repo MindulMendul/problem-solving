@@ -77,6 +77,7 @@
 #10090. (p5) Inversion Counting
 #10800. (g2) Prefix Sum (Cumulative Sum)
 #10830. (g4) Divide & Conquer
+#10836. (g3) Simple Implementation
 #11003. (P5) Deque
 #11047. (s4) Greedy
 #11053. (s2) DP
