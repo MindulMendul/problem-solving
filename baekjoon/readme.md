@@ -13,6 +13,7 @@
 #1456. (g5) Sieve of Eratosthenes
 #1463. (s3) DP
 #1517. (p5) Inversion Counting
+#1520. (g3) Topological Sort + DP + BFS
 #1629. (s1) Recursive
 #1644. (g3) Two Pointer
 #1655. (g2) Priority Queue
@@ -87,6 +88,7 @@
 #11438. (p5) LCA (Lowest Common Ancestor)
 #11444. (g2) Divide & Conquer with Fibonacci
 #11505. (g1) Segment Tree
+#11657. (g4) Bellman Ford
 #11660. (s1) DP
 #11689. (g1) Inclusion-Exclusion Principle
 #11724. (s2) Union Find
