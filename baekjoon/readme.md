@@ -54,7 +54,9 @@
 #2887. (p5) Kruskal
 #3015. (p5) Stack + Binary Search
 #4344. (b1) Simple Implementation
+#4485. (g4) BFS
 #4673. (s5) Simple Implementation
+#5427. (g4) BFS
 #5430. (g5) Simple Implementation
 #5615. (p1) Finding Prime Number with Miller Rabin
 #7453. (g2) Two Pointer
