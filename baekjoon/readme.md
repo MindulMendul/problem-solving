@@ -115,6 +115,7 @@
 #15663. (s2) Exhaustive Search with Hash Map
 #15683. (g3) Simple Implementation
 #15684. (g3) Back Tracking
+#15685. (g3) Divide & Conquer
 #15989. (g5) DP
 #16236. (g3) Simple Implementation
 #16496. (p5) String Sort, Greedy
