@@ -101,6 +101,7 @@
 #12865. (g5) 0-1 Knapsack (DP)
 #12919. (g5) BFS
 #13172. (g4) Divide & Conquer
+#13460. (g1) BFS & DP
 #13549. (g5) BFS
 #14003. (p5) LIS (Longest Increasing Subsequence)
 #14543. (g5) Simple Implementation
