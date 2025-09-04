@@ -53,6 +53,7 @@
 #2638. (g3) Simple Implementation (BFS)
 #2887. (p5) Kruskal
 #3015. (p5) Stack + Binary Search
+#3190. (g5) Simple Implementation
 #4344. (b1) Simple Implementation
 #4485. (g4) BFS
 #4673. (s5) Simple Implementation
@@ -122,6 +123,7 @@
 #16496. (p5) String Sort, Greedy
 #16724. (g3) Simple Implementation (Find Cycle)
 #16928. (g5) BFS
+#16930. (p3) BFS
 #16946. (g2) BFS (FloodFill)
 #16953. (s2) BFS
 #17070. (g5) DFS
