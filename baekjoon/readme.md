@@ -9,9 +9,11 @@
 #1167. (g2) DFS
 #1197. (g4) MST (Minimum Spanning Tree)
 #1238. (g3) Dijkstra of Two Way
+#1253. (g4) Two Pointer
 #1389. (s1) BFS
 #1456. (g5) Sieve of Eratosthenes
 #1463. (s3) DP
+#1477. (g4) Binary Search
 #1517. (p5) Inversion Counting
 #1520. (g3) Topological Sort + DP + BFS
 #1629. (s1) Recursive
@@ -119,6 +121,7 @@
 #15684. (g3) Back Tracking
 #15685. (g3) Divide & Conquer
 #15989. (g5) DP
+#16235. (g3) Simple Implementation
 #16236. (g3) Simple Implementation
 #16496. (p5) String Sort, Greedy
 #16724. (g3) Simple Implementation (Find Cycle)
