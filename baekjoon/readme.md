@@ -62,6 +62,7 @@
 #5427. (g4) BFS
 #5430. (g5) Simple Implementation
 #5615. (p1) Finding Prime Number with Miller Rabin
+#6549. (p5) Stack
 #7453. (g2) Two Pointer
 #7569. (g5) BFS
 #7570. (g2) Greedy
@@ -113,6 +114,7 @@
 #14500. (g4) Simple Implementation
 #14502. (g4) Simple Implementation
 #14890. (g3) Simple Implementation
+#14921. (g5) Two Pointer
 #15486. (g5) DP
 #15650. (s3) Exhaustive Search
 #15654. (s3) Exhaustive Search
