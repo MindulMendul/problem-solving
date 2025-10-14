@@ -49,6 +49,7 @@
 #2437. (g2) Prefix Sum (Cumulative Sum)
 #2467. (g5) Two Pointer
 #2493. (g5) Stack
+#2573. (g4) BFS
 #2579. (s3) DP
 #2606. (s3) DFS with Adjacency List
 #2623. (g3) Topological Sort
