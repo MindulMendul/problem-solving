@@ -51,6 +51,7 @@
 #2493. (g5) Stack
 #2573. (g4) BFS
 #2579. (s3) DP
+#2580. (g4) DFS
 #2606. (s3) DFS with Adjacency List
 #2623. (g3) Topological Sort
 #2638. (g3) Simple Implementation (BFS)
