@@ -24,6 +24,7 @@
 #1717. (g5) Union Find
 #1744. (g4) Greedy
 #1753. (g4) Dijkstra
+#1759. (g5) DFS
 #1764. (s4) Simple Implementation
 #1766. (g2) Topological Sort
 #1786. (p5) KMP
@@ -49,6 +50,7 @@
 #2437. (g2) Prefix Sum (Cumulative Sum)
 #2467. (g5) Two Pointer
 #2493. (g5) Stack
+#2533. (g3) DP + DFS
 #2573. (g4) BFS
 #2579. (s3) DP
 #2580. (g4) DFS
@@ -107,14 +109,17 @@
 #12865. (g5) 0-1 Knapsack (DP)
 #12919. (g5) BFS
 #13172. (g4) Divide & Conquer
+#13334. (g2) Sort & Priority Queue
 #13460. (g1) BFS & DP
 #13549. (g5) BFS
 #14003. (p5) LIS (Longest Increasing Subsequence)
+#14428. (g1) Segment Tree
 #14543. (g5) Simple Implementation
 #14719. (g5) Two Pointer
 #14499. (g4) Simple Implementation
 #14500. (g4) Simple Implementation
 #14502. (g4) Simple Implementation
+#14725. (g3) Recursive
 #14890. (g3) Simple Implementation
 #14921. (g5) Two Pointer
 #15486. (g5) DP
