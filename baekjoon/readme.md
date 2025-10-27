@@ -8,6 +8,7 @@
 #1149. (s1) DP
 #1167. (g2) DFS
 #1197. (g4) MST (Minimum Spanning Tree)
+#1202. (g2) Priority Queue
 #1238. (g3) Dijkstra of Two Way
 #1253. (g4) Two Pointer
 #1389. (s1) BFS
