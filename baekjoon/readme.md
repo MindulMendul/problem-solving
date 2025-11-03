@@ -52,6 +52,7 @@
 #2467. (g5) Two Pointer
 #2493. (g5) Stack
 #2533. (g3) DP + DFS
+#2568. (p5) LIS (Longest Increasing Subsequence)
 #2573. (g4) BFS
 #2579. (s3) DP
 #2580. (g4) DFS
