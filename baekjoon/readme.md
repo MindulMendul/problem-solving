@@ -5,6 +5,7 @@
 #1016. (g1) Sieve of Eratosthenes
 #1038. (g5) Exhaustive Search
 #1043. (g4) Union Find
+#1106. (g4) DP
 #1149. (s1) DP
 #1167. (g2) DFS
 #1197. (g4) MST (Minimum Spanning Tree)
