@@ -66,6 +66,7 @@
 #3015. (p5) Stack + Binary Search
 #3190. (g5) Simple Implementation
 #3197. (p5) BFS + dijkstra
+#3653. (p4) Cumulative Sum (Fenwick Tree)
 #4344. (b1) Simple Implementation
 #4485. (g4) BFS
 #4673. (s5) Simple Implementation
@@ -76,7 +77,8 @@
 #7453. (g2) Two Pointer
 #7569. (g5) BFS
 #7570. (g2) Greedy
-#7570. (g5) Queue? // seems like BFS
+#7576. (g5) Queue? // seems like BFS
+#7578. (p5) Inversion Count
 #7579. (g3) 0-1 Knapsack (DP)
 #8958. (b2) Simple Implementation
 #8972. (g3) Simple Implementation
