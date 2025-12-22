@@ -47,6 +47,7 @@
 #2166. (g5) Geometry
 #2225. (g5) DP
 #2230. (g5) Two Pointer
+#2243. (p5) Binary Search + Cumulative Sum (Fenwick Tree)
 #2252. (g3) Topological Sort
 #2294. (g5) DP
 #2295. (g4) Binary Search
