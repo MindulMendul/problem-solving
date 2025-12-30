@@ -23,6 +23,7 @@
 #1644. (g3) Two Pointer
 #1655. (g2) Priority Queue
 #1697. (s1) BFS
+#1708. (p5) CCW & Graham Scan
 #1715. (g5) Greedy
 #1717. (g5) Union Find
 #1744. (g4) Greedy
@@ -42,6 +43,7 @@
 #1991. (s1) Graph Search
 #2036. (g4) Greedy
 #2042. (g1) Segment Tree
+#2049. (p3) CCW & Graham Scan
 #2075. (s3) Simple Implementation
 #2143. (g3) Map & Two Pointer
 #2166. (g5) Geometry
