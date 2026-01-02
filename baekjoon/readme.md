@@ -34,6 +34,7 @@
 #1781. (g2) Priority Queue
 #1786. (p5) KMP
 #1806. (g4) Two Pointer
+#1865. (g3) Bellman Ford
 #1916. (g4) Dijkstra
 #1918. (g2) Stack
 #1927. (s2) Priority Queue
