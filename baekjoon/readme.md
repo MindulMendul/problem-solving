@@ -39,6 +39,7 @@
 #1918. (g2) Stack
 #1927. (s2) Priority Queue
 #1931. (s1) Greedy
+#1948. (p5) Topology Sort + BackTracking
 #1958. (g4) LCS (Longest Common Subsequence)
 #1967. (g4) DFS
 #1991. (s1) Graph Search
@@ -77,6 +78,7 @@
 #5427. (g4) BFS
 #5430. (g5) Simple Implementation
 #5615. (p1) Finding Prime Number with Miller Rabin
+#5719. (p5) Dijsktra & Back Tracking
 #6549. (p5) Stack
 #7453. (g2) Two Pointer
 #7569. (g5) BFS
