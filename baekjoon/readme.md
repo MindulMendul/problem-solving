@@ -42,6 +42,7 @@
 #1948. (p5) Topology Sort + BackTracking
 #1958. (g4) LCS (Longest Common Subsequence)
 #1967. (g4) DFS
+#1976. (g4) Union Find
 #1991. (s1) Graph Search
 #2036. (g4) Greedy
 #2042. (g1) Segment Tree
