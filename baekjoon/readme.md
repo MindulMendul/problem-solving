@@ -165,6 +165,7 @@
 #19637. (s3) Binary Search
 #20056. (g4) Simple Implementation
 #20058. (g3) Simple Implementation
+#20125. (s4) Simple Implementation
 #20149. (p4) Simple Implementation // CCW로 푸는 것도 공부하기
 #21609. (g2) BFS
 #21736. (s3) BFS
