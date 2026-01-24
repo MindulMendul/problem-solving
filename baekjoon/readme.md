@@ -73,6 +73,7 @@
 #3190. (g5) Simple Implementation
 #3197. (p5) BFS + dijkstra
 #3653. (p4) Cumulative Sum (Fenwick Tree)
+#4196. (p4) SCC with Tarjan Algorithm
 #4344. (b1) Simple Implementation
 #4485. (g4) BFS
 #4673. (s5) Simple Implementation
@@ -104,6 +105,7 @@
 #10800. (g2) Prefix Sum (Cumulative Sum)
 #10830. (g4) Divide & Conquer
 #10836. (g3) Simple Implementation
+#10999. (p4) Segment Tree with Lazy Propagation
 #11003. (P5) Deque
 #11047. (s4) Greedy
 #11053. (s2) DP
