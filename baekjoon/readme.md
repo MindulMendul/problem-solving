@@ -49,6 +49,7 @@
 #2049. (p3) CCW & Graham Scan
 #2075. (s3) Simple Implementation
 #2143. (g3) Map & Two Pointer
+#2150. (p5) SCC (Strongly Connected Component) with Tarjan Algorithm
 #2166. (g5) Geometry
 #2225. (g5) DP
 #2230. (g5) Two Pointer
@@ -73,7 +74,7 @@
 #3190. (g5) Simple Implementation
 #3197. (p5) BFS + dijkstra
 #3653. (p4) Cumulative Sum (Fenwick Tree)
-#4196. (p4) SCC with Tarjan Algorithm
+#4196. (p4) SCC (Strongly Connected Component) with Tarjan Algorithm
 #4344. (b1) Simple Implementation
 #4485. (g4) BFS
 #4673. (s5) Simple Implementation
