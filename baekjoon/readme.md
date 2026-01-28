@@ -2,6 +2,7 @@
 
 #1003. (s3) DP
 #1005. (g3) DP + DFS
+#1015. (p4) DP + Bitmasking
 #1016. (g1) Sieve of Eratosthenes
 #1038. (g5) Exhaustive Search
 #1043. (g4) Union Find
@@ -48,6 +49,7 @@
 #2042. (g1) Segment Tree
 #2049. (p3) CCW & Graham Scan
 #2075. (s3) Simple Implementation
+#2098. (g1) TSP (Traveling Salesman Problem)
 #2143. (g3) Map & Two Pointer
 #2150. (p5) SCC (Strongly Connected Component) with Tarjan Algorithm
 #2166. (g5) Geometry
@@ -157,6 +159,7 @@
 #16946. (g2) BFS (FloodFill)
 #16953. (s2) BFS
 #17070. (g5) DFS
+#17136. (g2) Back Tracking
 #17143. (g1) Simple Implementation
 #17219. (s4) Unordered Map
 #17299. (g3) Stack
