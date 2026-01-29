@@ -178,6 +178,7 @@
 #20125. (s4) Simple Implementation
 #20149. (p4) Simple Implementation // CCW로 푸는 것도 공부하기
 #21609. (g2) BFS
+#21611. (p5) Simple Implementation
 #21736. (s3) BFS
 #22682. (g5) Two Pointer
 #30804. (s2) Two Pointer
