@@ -121,6 +121,7 @@
 #11404. (g4) Floyd Warshall
 #11438. (p5) LCA (Lowest Common Ancestor)
 #11444. (g2) Divide & Conquer with Fibonacci
+#11501. (s2) Suffix Sum
 #11505. (g1) Segment Tree
 #11657. (g4) Bellman Ford
 #11660. (s1) DP
