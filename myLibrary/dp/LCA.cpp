@@ -50,18 +50,14 @@ int findAncestor(int x, int y){
     }
 
     // 조상찾기
-    int res=a;
-    if (a != b) {
-        for (int i = 16; i >= 0; i--) {
-            if (ancestor[a][i] != ancestor[b][i]) {
-                a = ancestor[a][i];
-                b = ancestor[b][i];
-            }
-            res = ancestor[a][i];
+    if (a==b) return a;
+    for (int i = 16; i >= 0; i--) {
+        if (ancestor[a][i] != ancestor[b][i]) {
+            a = ancestor[a][i];
+            b = ancestor[b][i];
         }
     }
-
-    return res;
+    return ancestor[a][0];
 }
 
 int main(){

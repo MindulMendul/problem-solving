@@ -27,9 +27,11 @@
 #1708. (p5) CCW & Graham Scan
 #1715. (g5) Greedy
 #1717. (g5) Union Find
+#1725. (p5) Greedy
 #1744. (g4) Greedy
 #1753. (g4) Dijkstra
 #1759. (g5) DFS
+#1761. (p5) LCA
 #1764. (s4) Simple Implementation
 #1766. (g2) Topological Sort
 #1781. (g2) Priority Queue
@@ -40,6 +42,7 @@
 #1918. (g2) Stack
 #1927. (s2) Priority Queue
 #1931. (s1) Greedy
+#1946. (s1) Greedy
 #1948. (p5) Topology Sort + BackTracking
 #1958. (g4) LCS (Longest Common Subsequence)
 #1967. (g4) DFS
@@ -73,6 +76,7 @@
 #2638. (g3) Simple Implementation (BFS)
 #2887. (p5) Kruskal
 #3015. (p5) Stack + Binary Search
+#3176. (p4) LCA
 #3190. (g5) Simple Implementation
 #3197. (p5) BFS + dijkstra
 #3653. (p4) Cumulative Sum (Fenwick Tree)
