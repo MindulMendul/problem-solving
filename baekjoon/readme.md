@@ -109,6 +109,7 @@
 #9935. (g4) String & Stack // Regex replace is too slow..
 #10026. (g5) Simple Implementation (with BFS)
 #10090. (p5) Inversion Counting
+#10775. (g2) Greedy with (Union Find or Set Lower Bound)
 #10800. (g2) Prefix Sum (Cumulative Sum)
 #10830. (g4) Divide & Conquer
 #10836. (g3) Simple Implementation
