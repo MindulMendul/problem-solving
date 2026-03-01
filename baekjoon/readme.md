@@ -48,6 +48,7 @@
 #1967. (g4) DFS
 #1976. (g4) Union Find
 #1991. (s1) Graph Search
+#2014. (g1) Greedy
 #2036. (g4) Greedy
 #2042. (g1) Segment Tree
 #2049. (p3) CCW & Graham Scan
@@ -116,6 +117,7 @@
 #10999. (p4) Segment Tree with Lazy Propagation
 #11003. (P5) Deque
 #11047. (s4) Greedy
+#11049. (g3) DP
 #11053. (s2) DP
 #11279. (s2) Priority Queue
 #11399. (s4) Sort
