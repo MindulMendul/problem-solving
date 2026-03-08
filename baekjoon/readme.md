@@ -50,6 +50,7 @@
 #1991. (s1) Graph Search
 #2014. (g1) Greedy
 #2036. (g4) Greedy
+#2038. (g1) Golomb
 #2042. (g1) Segment Tree
 #2049. (p3) CCW & Graham Scan
 #2075. (s3) Simple Implementation
